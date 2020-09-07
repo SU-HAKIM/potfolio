@@ -1,0 +1,1058 @@
+
+    *{
+
+
+        box-sizing: border-box;
+        padding:0px;
+        margin:0px;
+        
+        
+           
+    }
+
+    body{
+
+font-family:arial;
+
+
+
+    }
+
+
+    /*Navbar starts*/
+    h1{
+
+        text-align:center;
+
+
+    }
+
+    a{
+
+color:white;
+font-size:1.2rem;
+text-decoration:none;
+
+
+    }
+
+
+
+    p{
+
+font-size:1.2rem;
+text-align:justify;
+
+
+    }
+
+    .nav{
+
+
+padding:1% 7%;
+
+text-align:center;
+
+        background:#0c6168;
+
+
+    }
+
+
+    [class*=col-]{
+float:left;
+padding:10px;
+
+
+
+    }
+
+    .nav{
+
+color:white;
+margin:0;
+padding-top:10px;
+border-bottom:1px solid black;
+
+
+    }
+
+
+    .nav::after{
+content:'';
+clear:both;
+display:table;
+
+
+
+    }
+
+    [class*=col-]{
+
+
+width:100%;
+
+
+    }
+
+    .nav-logo{
+
+width:400px;
+margin: 0 auto;
+
+text-align:center;
+    }
+
+    .nav-logo img{
+
+width:100px;
+
+
+
+
+    }
+  
+    .nav-menu{
+
+display:flex;
+
+flex-direction:column;
+text-transform:uppercase;
+
+
+
+    }
+
+
+
+    .nav-menu a{
+
+
+background:#7e8686;
+border-radius:10px;
+
+margin:7px 0px;
+padding:10px;
+
+
+
+
+    }
+
+
+    .nav-menu a:hover{
+
+
+        background:rgb(238, 225, 225);
+        border-radius:10px;
+        
+        margin:7px 0px;
+        padding:10px;
+        
+        
+            }
+
+         /*Navbar ends*/
+
+
+          /*profile starts*/
+
+
+
+
+
+
+.profile{
+
+
+    padding:130px 10px;
+
+position:relative;
+
+
+
+
+
+}
+
+
+.profile img{
+
+
+width:150px;
+height:100px;
+
+
+
+
+}
+
+
+
+.profile .top-weather-icon{
+
+    position:absolute;
+right:60px;
+top:20px;
+
+transition:transform 2s;
+
+text-align:center;
+
+}
+
+
+.profile .top-weather-icon:hover,.bottom-weather-icon:hover{
+transform:rotate(360deg);
+
+}
+
+
+.profile desc h1{
+
+
+font-family:arial black;
+text-align:center;
+
+
+font-size:3rem;
+}
+
+.profile-desc p{
+
+
+color:gray;
+text-align:center;
+width:90%;
+margin:0 auto 20px auto;
+
+
+}
+
+
+
+
+
+
+.bottom-weather-icon{
+
+    position: absolute;
+    transition:transform 2s;
+
+    bottom:20px;
+    left:60px;
+
+
+
+}
+
+.profile::after{
+content:'';
+clear:both;
+display:table;
+
+
+
+
+}
+
+
+
+ /*profiles ends*/
+
+/*about me section start*/
+
+h2{
+
+font-size:1.2rem;
+text-align:center;
+
+
+}
+
+
+.about-me{
+
+background:#39a4a6;
+padding:1% 7%;
+color:white;
+text-align:center;
+font-family:arial;
+
+
+
+
+
+
+
+}
+
+.about-me::after{
+content:'';
+clear:both;
+display:table;
+
+
+
+}
+
+
+.dotted-hr{
+
+border:dotted 6px white;
+border-bottom:none;
+margin:20px auto;
+width:70px;
+
+
+
+}
+
+
+.aboutme-img img{
+
+border:5px solid white;
+border-radius: 50%;
+height:220px;
+width:200px;
+
+
+
+
+}
+
+.about-me p{
+
+
+text-align:center;
+
+
+}
+
+
+.about-me a{
+
+font-size:1.2rem;
+
+
+}
+
+
+.cv-button{
+
+background:#052d2f;
+color:white;
+
+border:none;
+
+border-radius: 12px;
+padding:15px;
+
+font-size:1rem;
+
+
+cursor:pointer;
+
+text-align:center;
+margin:10px;
+}
+ /*about me section end*/
+
+ /*skill-div-start*/
+
+ .personal-skills{
+
+    margin:5px;
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    .referances{
+    
+    background:gray;
+    
+    border-radius:30px;
+    
+    margin:10px 0px;
+    
+    }
+    
+    
+    .dotted-hr{
+    
+    border:dotted 5px white;
+    border-bottom:none;
+    
+    
+    }
+    
+    
+    
+    .referances:hover{
+    
+       
+        box-shadow:0px 0px 30px 8px rgb(83, 76, 76);
+        
+        
+        
+        
+        }
+    
+    
+.card-1{
+
+
+    color:white;
+    text-align:center;
+    
+    height:600px;
+    
+    
+    
+    }
+    
+    
+    .card-2{
+    
+    
+        color:white;
+        text-align:center;
+        
+        height:600px;
+        
+        
+    }
+    
+    
+    .card-3{
+    
+    
+        color:white;
+      
+        
+        height:600px;
+        
+    }
+    
+    
+    .card-logo img{
+    
+    
+    width:50px;
+    height:50px;
+    
+    border-radius: 50%;
+    
+    
+    
+    }
+    
+    .cord-logo{
+    
+    
+    text-align:center;
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    .li-hr{
+    
+    
+    margin:10px 0px;
+    
+    
+    }
+    
+    
+    
+    
+    .card-1 li{
+    
+    
+    list-style:none;
+    
+    
+    }
+    
+    .card-2 li{
+    
+    
+        list-style:none;
+        
+        
+        }
+
+        
+    .card-3 li{
+    
+    
+        list-style:none;
+        
+        
+        }
+    
+    
+    
+    .education{
+    
+    
+    
+    
+        background:gray;
+    
+        border-radius:30px;
+        
+        margin:10px 0px;
+    
+    }
+    
+    .education:hover{
+    
+    
+        box-shadow:0px 0px 30px 8px rgb(83, 76, 76);
+        
+        
+        
+    
+    
+    
+    }
+    
+    .card-head h2{
+    
+    background:#464040f1;
+    
+    
+    
+    
+    
+    }
+    
+    
+    .card-head{
+    
+    
+        text-align:center;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .skill{
+        
+        
+        
+        
+        background:gray;
+    
+        border-radius:30px;
+        
+        margin:10px 0px;
+    
+    }
+    
+    .skill:hover{
+    
+    
+        box-shadow:0px 0px 30px 8px rgb(83, 76, 76);
+        
+        
+        
+    
+    
+    
+    }
+
+
+    
+.skill-container{
+
+
+    padding-left:45px;
+    
+    
+    
+    
+    }
+    
+    
+    .skill-container li{
+    
+    font-weight:bolder;
+    margin:35px 10px;
+    position:relative;
+    text-transform: uppercase;
+    
+    
+    
+    }
+
+
+    .card-3 .card-logo{
+
+
+text-align:center;
+
+
+    }
+
+
+    
+.skill-container li::before{
+
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+    background:rgb(86, 86,153,.5);
+  left:0px;
+      
+  width:100%;
+  height:10px;
+  
+  border-radius:1000px;
+  
+  
+      }
+
+
+      
+.skill-container li::after{
+
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+    background:rgb(86, 86,153,1);
+  left:0px;
+      
+  width:0%;
+  height:10px;
+  
+  border-radius:1000px;
+  
+  animation-duration:2s;
+  animation-delay:1s;
+  animation-timing-function: linear;
+
+/*
+animation-direction:forward;
+animation-iteration-count: 3;
+
+
+*/
+
+animation-fill-mode: forwards;
+
+
+
+
+      }
+
+
+
+.html::after{
+
+animation-name:HTML;
+
+
+
+
+
+}
+
+
+.css::after{
+
+    animation-name:CSS;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.js::after{
+
+    animation-name:JS;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.bootstarp::after{
+
+    animation-name:BOOTSTARP;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.Jquary::after{
+
+    animation-name:JQUARY;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.node-js::after{
+
+    animation-name:NODE-JS;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.github::after{
+
+    animation-name:GITHUB;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+.react-js::after{
+
+    animation-name:REACT-JS;
+    
+    
+    
+    
+    
+    }
+    
+
+    
+
+    @keyframes HTML{
+
+
+        to{
+        
+        width:90%;
+        
+        
+        
+        
+        }
+        
+        
+        
+        
+                    }
+                    
+                
+                    @keyframes CSS{
+        
+        
+                        to{
+                        
+                        width:85%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes JS{
+        
+        
+                        to{
+                        
+                        width:80%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes BOOTSTARP{
+        
+        
+                        to{
+                        
+                        width:75%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes JQUARY{
+        
+        
+                        to{
+                        
+                        width:80%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes NODE-JS{
+        
+        
+                        to{
+                        
+                        width:70%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes REACT-JS{
+        
+        
+                        to{
+                        
+                        width:70%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                                    
+                    @keyframes GITHUB{
+        
+        
+                        to{
+                        
+                        width:80%;
+                        
+                        
+                        
+                        
+                        }
+                        
+                        
+                        
+                        
+                                    }
+                    
+                    
+.personal-skills::after{
+content:'';
+display:table;
+clear:both;
+        }
+    
+
+
+
+
+ /*skill-div-end*/
+
+
+ /*achivment contact start*/
+
+.achivment-contact{
+
+padding:1% 7%;
+background:#39a4ac;
+color:white;
+
+
+
+}
+
+
+    .contact{
+
+text-align:center;
+
+
+
+
+
+    }                
+        
+    .contact input[type="text"],[type="email"], textarea{
+
+width:100%;
+padding:10px;
+font-size:1rem;
+text-align:center;
+border:none;
+border-radius: 5px;
+resize:none;
+
+margin:10px 0px;
+
+
+
+    }
+
+
+    .contact input[type="submit"],[type="reset"]{
+
+border:none;
+border-radius:12px;
+background:#052d2f;
+color:white;
+cursor: pointer;
+padding:15px;
+margin:10px;
+
+width:100px;
+
+    }
+
+    .btn{
+
+
+
+border:none;
+border-radius:50%;
+cursor: pointer;
+font-size:32px;
+padding:5px;
+margin:10px;
+width:50px;
+background:white;
+
+    }
+
+.btn:hover{
+
+background:gray;
+
+
+
+}
+
+
+
+
+
+    .contact-links{
+
+text-align:center;
+
+
+margin-bottom:30px;
+
+    }
+
+
+    .achivment-contact::after{
+        content:'';
+        display:table;
+        clear:both;
+        
+        
+        
+        
+                        }
+  /*achivment contact end*/
+
+
+
+  /*footer starts from here*/
+
+.footer{
+
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+font-size:0.8rem;
+
+
+
+}
+
+.footer-menu a{
+
+display:block;
+margin:15px 0px;
+font-size:1rem;
+
+
+}
+
+.footer-menu a:hover{
+
+   color:gray;
+    
+    
+    }
+
+
+.footer:after{
+content:'';
+display:table;
+clear:both;
+
+
+
+}
+
+
+
+  /*footer ends  here*/
